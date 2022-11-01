@@ -15,7 +15,7 @@ function App() {
   const [selectedAccount, setSelectedAccount] = useState("");
   const [provider, setProvider] = useState();
   const [nftsData, setNftsData] = useState();
-
+  const [noNfts, setNoNfts] = useState(false);
   const changeProvider = (newProvider) => {
     setProvider(newProvider);
   };
@@ -148,7 +148,10 @@ function App() {
       await init();
     }
     const temp = await smartContract.methods.balanceOf(selectedAccount).call();
-
+    console.log(temp)
+    if (temp == 0) {
+      setNoNfts(true)
+    }
     let tokenUris = [];
     for (let i = 1; i <= temp; i++) {
       let newUri = await smartContract.methods.tokenURI(i).call({ from: selectedAccount });
@@ -201,6 +204,13 @@ function App() {
         !isWalletConnected && (
           <div style={{ zIndex: "-1" }} className="bg">
             <h1>Wallet Not <br /> Connected</h1>
+          </div>
+        )
+      }
+      {
+        noNfts && (
+          <div style={{ zIndex: "-1" }} className="bg">
+            <h1>No Nfts minted by your address</h1>
           </div>
         )
       }
