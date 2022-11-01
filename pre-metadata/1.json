@@ -1,0 +1,29 @@
+{
+  "name": "MS0001.jpg",
+  "symbol": "",
+  "image": "https://bafkreiavysro3thdmh3geoi4x3qj7hqktjn4spwrjw6hqkfv6jj7ytnkxi.ipfs.nftstorage.link/",
+  "properties": {
+    "files": [
+      {
+        "uri": "bafkreiavysro3thdmh3geoi4x3qj7hqktjn4spwrjw6hqkfv6jj7ytnkxi",
+        "type": "video/mp4"
+      }
+    ],
+    "category": "image"
+  },
+  "description": "",
+  "attributes": [
+    {
+      "rarity": "TBA",
+      "background": "TBA",
+      "eyewear": "TBA",
+      "headwear": "TBA",
+      "clothing": "TBA",
+      "neckwear": "TBA",
+      "head": "TBA",
+      "bonus_feature": "TBA",
+      "character": "TBA"
+    }
+  ],
+  "collection": {}
+}
