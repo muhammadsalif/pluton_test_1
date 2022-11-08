@@ -1,0 +1,89 @@
+[
+  {
+    "name": "MS0001.jpg",
+    "symbol": "",
+    "image": "https://bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju.ipfs.nftstorage.link/1.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju",
+          "type": "image/jpg"
+        }
+      ],
+      "category": "image"
+    },
+    "description": "",
+    "attributes": [
+      {
+        "rarity": "Rare",
+        "background": "YellowBrownOil",
+        "eyewear": "None",
+        "headwear": "None",
+        "clothing": "AquaMarineNeonJacket",
+        "neckwear": "BlueSplatScarf",
+        "head": "BlueAccentBlack",
+        "bonus_feature": "None",
+        "character": "SpaceCat"
+      }
+    ],
+    "collection": {}
+  },
+  {
+    "name": "MS0002.jpg",
+    "symbol": "",
+    "image": "https://bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju.ipfs.nftstorage.link/2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju",
+          "type": "image/jpg"
+        }
+      ],
+      "category": "image"
+    },
+    "description": "",
+    "attributes": [
+      {
+        "rarity": "Rare",
+        "background": "YellowBrownOil",
+        "eyewear": "None",
+        "headwear": "None",
+        "clothing": "AquaMarineNeonJacket",
+        "neckwear": "BlueSplatScarf",
+        "head": "BlueAccentBlack",
+        "bonus_feature": "None",
+        "character": "SpaceCat"
+      }
+    ],
+    "collection": {}
+  },
+  {
+    "name": "MS0003.jpg",
+    "symbol": "",
+    "image": "https://bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju.ipfs.nftstorage.link/3.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "bafybeihfq4smxhx2wmybihhvuwbhrzcsxpz6lfpcbuehkd6r5a57kopmju",
+          "type": "image/jpg"
+        }
+      ],
+      "category": "image"
+    },
+    "description": "",
+    "attributes": [
+      {
+        "rarity": "Rare",
+        "background": "YellowBrownOil",
+        "eyewear": "None",
+        "headwear": "None",
+        "clothing": "AquaMarineNeonJacket",
+        "neckwear": "BlueSplatScarf",
+        "head": "BlueAccentBlack",
+        "bonus_feature": "None",
+        "character": "SpaceCat"
+      }
+    ],
+    "collection": {}
+  }
+]

@@ -1,0 +1,10 @@
+1. initialize the hardhat project
+2. create fungible token with 10 decimals.
+3. write NFT contract with the max supply of 3 nfts and its only mintable by your fungible token each costing 0.5 (your token)
+
+   nft should be visible on opensea and its metadata will be hidden until all the nfts are minted.
+4. verify those 2 contracts on etherscan
+5  write a hardhat script to mint 3 NFTs.
+6. create small ui for displaying minted nfts by using any service of your choice.
+
+7. deploy your frontend to surge and share the github link of your repository along with the addresses of the deploy contracts in the readme.

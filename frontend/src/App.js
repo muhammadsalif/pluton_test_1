@@ -4,6 +4,7 @@ import contractAbi from "./contractAbi.json";
 import { useState, useEffect } from 'react';
 import MetaMaskSvg from "./assets/metamask.svg";
 import axios from 'axios';
+import uris from './uris.json'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
   );
   const [selectedAccount, setSelectedAccount] = useState("");
   const [provider, setProvider] = useState();
-  const [nftsData, setNftsData] = useState();
+  const [nftsData, setNftsData] = useState(uris);
   const [noNfts, setNoNfts] = useState(false);
   const changeProvider = (newProvider) => {
     setProvider(newProvider);
@@ -148,7 +149,6 @@ function App() {
       await init();
     }
     const temp = await smartContract.methods.balanceOf(selectedAccount).call();
-    console.log(temp)
     if (temp == 0) {
       setNoNfts(true)
     }
@@ -163,7 +163,7 @@ function App() {
       let response = await axios.get(tokenUris[i]);
       responses.push(response.data)
     }
-    setNftsData(responses);
+    // setNftsData(responses);
 
   };
 
